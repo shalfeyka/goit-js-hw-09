@@ -1,3 +1,4 @@
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 // Описан в документации
 import flatpickr from "flatpickr";
 // Дополнительный импорт стилей
