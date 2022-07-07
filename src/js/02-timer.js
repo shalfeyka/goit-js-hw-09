@@ -35,7 +35,7 @@ const options = {
     const interval = setInterval (() => {
         const difTime = selectedDate - Date.now();
         const date = convertMs(difTime);
-        if (date.seconds > 0) {
+        if (date.seconds >= 0) {
             clearInterval(interval);
             return;
         }
